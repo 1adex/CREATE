@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 238);
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bigbox{
+    width: 800px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding: 4em;
+    width: 100%;
+}
+ p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h4{
+    font-family: 'Big Shoulders Display',
+    cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+    width: 100%;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 4em;
+    width: 100%;
+}
+button{
+    margin: 5px;
+    cursor: pointer;
+    font-size: small;
+    border-radius: 20px;
+    padding: 6px;
+    border: 1px solid;
+}
+.btn1 :hover{
+background-color: hsl(31, 77%, 52%);
+opacity: 1;
+}
+.btn2 :hover{
+background-color: hsl(184, 100%, 22%);
+opacity: 1;
+}
+.btn3 :hover{
+background-color: hsl(179, 100%, 13%);
+opacity: 1;
+}
